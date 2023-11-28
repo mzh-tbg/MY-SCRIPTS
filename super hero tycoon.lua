@@ -10,7 +10,7 @@ local Section = Tab:NewSection("Main")
 local autoclick = true
 local autoclick2 = true
 local team  = game.Players[game.Players.LocalPlayer.name].team
- local  playerhead =  game.Players.LocalPlayer.Character.Head
+local  playerhead =  game.Players.LocalPlayer.Character.Head
 	
 Section:NewToggle("Auto Click First Clicker", "Auto Clicks First Clicker  On the First Floor", function(state)    
     if state then
